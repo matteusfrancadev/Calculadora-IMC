@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url('imagecalc.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2vh;
+    color: black;
+    font-weight: 300;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-size: 27px;
+    margin-bottom: 2vh;
+}
+
+label{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+#label-two{
+    margin-top: 5vh;
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    height: 3vh;
+    width: 30vw;
+    padding: 5px;
+}
+
+button {
+    margin-top: 7vh;
+    width: 15vw;
+    height: 3vh;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
